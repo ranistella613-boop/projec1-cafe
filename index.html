@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <link name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta rel="icon" href="OIP.webp">
+        <style>
+            a{
+                text-decoration: none;
+            }
+
+            .box{
+                width: 50%;
+                height: 100vh;
+                background-color: wheat;
+                height: 600px;
+
+                margin: auto;
+                margin-top: 220px;
+
+                 background-image: url("OIGP.x.jpg");
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 background-position: center;
+            }
+
+            @media screen and (max-width: 600px){
+                .box{
+                    width: 90%;
+                    height: 100vh;
+                }
+
+                .box1{
+                    font-size: 25px;
+                }
+                
+            }
+
+            .box1{
+                text-align: center;
+                padding-top: 50px;
+        
+                font-size: 50px;
+
+                color: black;
+            }
+            </style>
+        <title>Cafe</title>
+
+</head>
+
+<body>
+    <div class="box">
+
+    <div class="box1">
+
+        <form>
+            Name:<input type="text" placeholder="entter your name" id="name"><br><br>
+            <label>Address:</label>
+            <textarea placeholder="enter your Address" id="address"></textarea><br><br>
+            Phone no:<input type="number" placeholder="entter your number" id="phone">
+            </form>
+            <p id="message"></p>
+
+            <button onclick="show()" id="button1"
+            style="border: 2px dashed  wheat;
+            font-size: 20px;
+            text-decoration: none;
+            background-color:   rgb(157, 59, 91) ;">OPEN</button>
+            
+
+
+
+            </div>
+            </div>
+    
+
+    </body>
+    </html>
+
+
+    <script>
+
+        var name = document.getElementById("name")
+       var address = document.getElementById("address")
+         var phone = document.getElementById("phone")
+         var button1 = document.getElementById("button1")
+         var message = document.getElementById("message")
+
+
+
+         function show(){
+            if(name.value == "" || address.value == "" || phone.value == "") 
+         {
+          
+            alert("fill all the fields")
+
+            setTimeout(function()
+            {
+                Window.location.href = "cafe.html"},2000)
+            }
+            
+
+         else{
+            setTimeout(function()
+            {
+            window.location.href = "cafe.html"},2000)
+         }
+
+        }
+        </script>

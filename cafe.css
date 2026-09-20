@@ -1,0 +1,87 @@
+.box1{
+    width: 1520px;
+}
+
+.box2{
+          width: 1520px;
+  height: 400px;
+    background-image: url("OIP (4).webp");
+}
+
+.item1,
+.item2,
+.item3{
+    border: 5px dashed  rgb(157, 59, 91) ;
+    display: inline-block;
+      border-radius: 10px;
+      background-color: wheat;
+      margin-left: 60px;
+}
+
+.box3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+span{
+    text-align: center;
+}
+
+button:hover{
+    background-color:  rgb(157, 59, 91);
+}
+
+h3{
+    text-decoration: underline;
+}
+
+.box4 li{
+    display: list-item;
+}
+
+.item4,
+.item5,
+.item6{
+    border: 5px wheat solid;
+    display: inline-block;
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.box5{
+    background-color:  rgb(157, 59, 91);
+    height: 130px;
+    text-align: center;
+
+    width: 1520px;
+}
+
+.box4{
+    width: 1520px;
+}
+
+footer{
+    padding-top: 15px;
+    color: wheat;
+}
+
+.box6 button{
+    font-size: 30px;
+    margin-left: 1410px;
+}
+
+hr{
+      width: 150vw;
+      box-sizing: border-box;
+     margin: 20px 0;
+ }
+
+
+
+
+
+
+
